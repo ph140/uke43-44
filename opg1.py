@@ -3,23 +3,24 @@ import numpy as np
 import math
 
 
-def sinFunksjon(x):
+def sinus(x):
     return math.sin(x)
 
 
-def tanFunksjon(x):
+def tangens(x):
     return math.tan(x)
 
 
-def cosFunksjon(x):
+def cosinus(x):
     return math.cos(x)
 
 
-def polFunksjon(x):
+def polynom(x):
     return (x**2/10) - 2*x + 5
 
 
-def visgraf(funksjon, steglengde):
+def visgraf(funksjon):
+    steglengde = 0.1
     xverdier = []
     yverdier = []
     firePi = int((4*math.pi)/steglengde)
@@ -41,21 +42,7 @@ def visgraf(funksjon, steglengde):
     plt.show()
 
 
-visgraf(sinFunksjon, 0.0001)
-visgraf(tanFunksjon, 0.0001)
-visgraf(cosFunksjon, 0.0001)
-visgraf(polFunksjon, 0.0001)
-
-dajgajglkdgjkøj
-dajgajglkdgjkøj
-dajgajglkdgjkøj
-
-
-dajgajglkdgjkøj
-dajgajglkdgjkøj
-dajgajglkdgjkøj
-dajgajglkdgjkøj
-dajgajglkdgjkøj
-dajgajglkdgjkøj
-dajgajglkdgjkøj
-dajgajglkdgjkøj
+visgraf(sinus)
+visgraf(tangens)
+visgraf(cosinus)
+visgraf(polynom)

@@ -1,12 +1,12 @@
 from random import randint
 
-with open("tilfeldigeTall.txt", "w") as f:
+with open("tilfeldigeTall.txt", "w") as file:
     for i in range(100):
-        f.write(str(randint(1, 100))+",")
+        file.write(str(randint(1, 100))+",")
 
 
-with open("tilfeldigeTall.txt", "r") as f:
-    minliste = f.read().split(",")
+with open("tilfeldigeTall.txt", "r") as file:
+    minliste = file.read().split(",")
 
 minliste.pop()
 
