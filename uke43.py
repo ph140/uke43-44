@@ -100,3 +100,6 @@ def opg3():
     plt.xlabel('Tid / ms')
     plt.ylabel('Milli-g')
     plt.show()
+
+
+opg1bc()
